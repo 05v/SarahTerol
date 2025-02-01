@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Sarah Terol - Natuurgeneeskunde en B12 Therapie</title>
+    <style>
+        /* Basic CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Header Styles */
+        header {
+            background: #f8f8f8;
+            padding: 1rem;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        nav h1 {
+            font-size: 1.8rem;
+            color: #2c5a4d;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .nav-links a {
+            color: #2c5a4d;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 70vh;
+            background: linear-gradient(rgba(44, 90, 77, 0.8), rgba(44, 90, 77, 0.8)),
+                url('https://placehold.co/1920x1080') center/cover no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        /* Content Sections */
+        section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .dienst-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .tarieven-tabel {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+        }
+
+        .tarieven-tabel td,
+        .tarieven-tabel th {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .contact-details {
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+
+        footer {
+            background: #f8f8f8;
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .nav-links {
+                flex-direction: column;
+                width: 100%;
+                margin-top: 0.5rem;
+            }
+
+            .nav-links a {
+                padding: 0.5rem 0;
+            }
+
+            .hero {
+                height: 50vh;
+            }
+
+            section {
+                padding: 3rem 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <h1>Dr. Sarah Terol</h1>
+            <div class="nav-links">
+                <a href="#intro">Introductie</a>
+                <a href="#diensten">Diensten</a>
+                <a href="#b12">B12 Therapie</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div>
+            <h2>Natuurgeneeskunde met persoonlijke aandacht</h2>
+            <p>Integrale gezondheidszorg in hartje Utrecht</p>
+        </div>
+    </div>
+
+    <!-- Introductie -->
+    <section id="intro">
+        <h2>Welkom bij mijn praktijk</h2>
+        <p>Als integraal werkend arts combineer ik reguliere medische kennis met natuurlijke geneeswijzen. Mijn aanpak
+            richt zich op de onderliggende oorzaken van gezondheidsklachten, met speciale aandacht voor voeding,
+            leefstijl en vitamine B12-deficiënties.</p>
+    </section>
+
+    <!-- Diensten -->
+    <section id="diensten" style="background:#f8f8f8">
+        <h2>Mijn diensten</h2>
+        <div class="dienst-grid">
+            <div>
+                <h3>Integrale consulten</h3>
+                <p>Uitgebreide gezondheidsanalyse met aandacht voor lichaam en geest.</p>
+            </div>
+            <div>
+                <h3>Voedingstherapie</h3>
+                <p>Persoonlijke voedingsplannen voor optimale gezondheid.</p>
+            </div>
+            <div>
+                <h3>Vitamine B12-behandelingen</h3>
+                <p>Diagnostiek en behandeling van B12-deficiëntie.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- B12 Therapie -->
+    <section id="b12">
+        <h2>Vitamine B12 Therapie</h2>
+        <p>Een B12-tekort kan leiden tot diverse klachten zoals vermoeidheid, concentratieproblemen en neurologische
+            symptomen. In mijn praktijk werk ik volgens de laatste wetenschappelijke inzichten:</p>
+        <ul>
+            <li>Gedegen bloedonderzoek</li>
+            <li>Persoonlijk behandelplan</li>
+            <li>Injectietherapie op maat</li>
+        </ul>
+        <p>Meer informatie over B12: <a href="https://www.kijkopjelijf.nl" target="_blank">Kijk op je Lijf</a></p>
+    </section>
+
+    <!-- Tarieven -->
+    <section id="tarieven" style="background:#f8f8f8">
+        <h2>Tarieven</h2>
+        <table class="tarieven-tabel">
+            <tr>
+                <th>Dienst</th>
+                <th>Prijs</th>
+            </tr>
+            <tr>
+                <td>Consult (30 min)</td>
+                <td>€75,-</td>
+            </tr>
+            <tr>
+                <td>Intake (60 min)</td>
+                <td>€150,-</td>
+            </tr>
+            <tr>
+                <td>Herhaalrecept per email</td>
+                <td>€25,-</td>
+            </tr>
+            <tr>
+                <td>Bloedafname/injectie</td>
+                <td>€25,-</td>
+            </tr>
+        </table>
+        <p>Voor uitgebreide tarieven en vergoedingen: <a href="https://b12-centrum.nl" target="_blank">B12 Centrum</a>
+        </p>
+    </section>
+
+    <!-- Contactgegevens -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-details">
+            <p><strong>Telefoon:</strong> 0123-456789</p>
+            <p><strong>Email:</strong> <a href="mailto:info@drsarahterol.nl">info@drsarahterol.nl</a></p>
+            <p><strong>Adres:</strong> Lange Nieuwstraat 12, Utrecht</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Lid van de <strong>AVIG (Artsen Vereniging Integrale Geneeskunde)</strong></p>
+        <p>© 2023 Dr. Sarah Terol | Alle rechten voorbehouden</p>
+        <p>Praktijkadres: Lange Nieuwstraat 12, Utrecht</p>
+    </footer>
+</body>
+
+</html>
